@@ -3,10 +3,10 @@ import java.io.*;
 import java.text.DecimalFormat;
 
 /**
- * A program that prints the prompt of how many items you want to purchase
- * and stops to calculate the subtotal, tax, and total when you type 0
+ * A program that takes a string from the user
+ * and then prints out the # of characters, spaces, and letters in the sentence
  * 
- * @author: G. Huang
+ * @author: Gordon H.
  */
 
  public class Review7{
@@ -25,6 +25,7 @@ import java.text.DecimalFormat;
         // Gets the User Input
         strInput = (br.readLine());
 
+        // Calculates the amount of 'a', spaces, and dashes to include
         for (int i = 0; i < strInput.length(); i++){
             if (strInput.charAt(i) == 'a'){
                 intLetters += 1;
@@ -37,17 +38,12 @@ import java.text.DecimalFormat;
             }
         }
 
-
+        // Outputs
         intChars = strInput.length();
         System.out.println("There are " + intChars + " characters in the sentence.");
         System.out.println("There are " + intSpaces + " spaces in the sentence.");
         System.out.println("There are " + intLetters + " letter a in the sentence.");
         System.out.println(strDash);
-
-
-
-
-
 
     }
 }
