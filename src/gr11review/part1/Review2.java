@@ -10,22 +10,22 @@ import java.io.*;
 
  public class Review2{
     public static void main(String[] args) throws IOException{
-        //Initilizes the User Input
+        // Initilizes the User Input
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        //Initilizing all the variables
+        // Initilizing all the variables
         int intMenu = 0;
 
-        //Lists the options
+        // Lists the options
         System.out.println("0 - print a joke about your hair"); 
         System.out.println("1 - print a joke about your feet"); 
         System.out.println("2 - print a joke about your clothes"); 
         System.out.println("3 - print a joke about your teacher");
 
-        //Gets the user input
+        // Gets the user input
         System.out.print("Choose a menu option: ");
         intMenu = Integer.parseInt(br.readLine());
 
-        //Switch case that selects the joke based on the user's input
+        // Switch case that selects the joke based on the user's input
         switch(intMenu){
             case 0:
                 System.out.println("I had straight As in grade 9?");
