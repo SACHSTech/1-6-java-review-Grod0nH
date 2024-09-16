@@ -22,7 +22,7 @@ import java.text.DecimalFormat;
         double dblFinal = 0.0;
         int intYear = 0;
 
-        // 
+        // Gets the User Input
         System.out.print("Enter the yearly invested amount: ");
         intYearlyAmount = Integer.parseInt(br.readLine());
         System.out.print("Enter the compound interest rate: ");
@@ -32,14 +32,15 @@ import java.text.DecimalFormat;
 
         dblFinal = 0;
 
+        // Calculates the Amount of Years it Takes
         while(dblFinal < intTarget){
-
             dblFinal+= intYearlyAmount;
             dblFinal += ((dblInterest/100) * dblFinal);
             intYear +=1;
             
         }
 
+        // Outputs
         System.out.println("The target amount will be earned in " + intYear + " years.");
         
 
