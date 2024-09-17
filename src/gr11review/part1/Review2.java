@@ -4,14 +4,16 @@ import java.io.*;
 /**
  * A program that gives the user options to choose a joke
  * then prints out the punchline
- * @author: G. Huang
+ * @author: Gordon H.
  * 
  */
 
  public class Review2{
     public static void main(String[] args) throws IOException{
+
         // Initilizes the User Input
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         // Initilizing all the variables
         int intMenu = 0;
 

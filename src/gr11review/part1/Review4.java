@@ -8,7 +8,7 @@ import java.text.DecimalFormat;
  * The program then gets the prices for the items one by one. 
  * print out the total, the tax (13%) and the grand total.
  * 
- * @author: G. Huang
+ * @author: Gordon H.
  */
 
  public class Review4{

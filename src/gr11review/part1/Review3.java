@@ -4,7 +4,7 @@ import java.io.*;
 /**
  * A program that prints the odd numbers from 20 to 100 and prints the numbers from 29 to 2
  * 
- * @author: G. Huang
+ * @author: Gordon H.
  */
 
  public class Review3{

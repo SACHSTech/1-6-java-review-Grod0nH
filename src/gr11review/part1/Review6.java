@@ -6,7 +6,7 @@ import java.text.DecimalFormat;
  * A program that prints the prompt of how many items you want to purchase
  * and stops to calculate the subtotal, tax, and total when you type 0
  * 
- * @author: G. Huang
+ * @author: Gordon H.
  */
 
  public class Review6{
